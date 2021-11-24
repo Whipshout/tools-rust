@@ -28,5 +28,10 @@
     "test:rust": "cargo test",
     "test:js": "ava",
     "doc": "cargo rustdoc --open -- --document-private-items"
+  },
+  "optionalDependencies": {
+    "tools-rust-win32-x64-msvc": "1.0.0",
+    "tools-rust-darwin-x64": "1.0.0",
+    "tools-rust-linux-x64-gnu": "1.0.0"
   }
 }

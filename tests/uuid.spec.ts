@@ -2,7 +2,7 @@
 import { uuid } from "../index";
 
 // We have to use 'ava' to test 'napi'
-// Ava load a node environment needed for use Rust binary
+// Ava load a node environment needed for Rust binary
 import test from 'ava'
 
 import { randomBytes } from "crypto";

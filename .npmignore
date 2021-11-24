@@ -1,0 +1,9 @@
+target
+Cargo.lock
+.cargo
+.github
+.idea
+npm
+*.node
+tests
+ava.config.js
